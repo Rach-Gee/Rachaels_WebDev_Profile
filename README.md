@@ -10,7 +10,7 @@
 
 The following image provides a snippet of the wonders you will see when you open my webpage. 
 
-![Top left of my profile](.\Assets\Image\ReadMe_img.PNG)
+
 <img src=".\Assets\Image\ReadMe_img.PNG" alt="Top left of my profile"/>
 
 
