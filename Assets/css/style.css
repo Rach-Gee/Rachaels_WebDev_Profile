@@ -101,7 +101,7 @@ aside img {
 /*MAIN*/
 
 section {
-    padding-bottom: 25px;
+    padding-bottom: 75px;
 }
 
 section h2{
@@ -112,48 +112,73 @@ section h2{
     font-size: xx-large;
     text-align: end;
     padding-right: 10px;
-    border-right-style: solid;
-    border-color: var(--green);
 }
 
-section p{
+p{
     margin: 20px 0 15px 260px;
     padding-bottom: 10px;
     padding-left: 10px;
+    border-left-style: solid;
+    border-color: var(--green);
 }
 
 .myworkbox  {
-    margin-left: 280px;
-    
+    margin-left: 260px;
+    border-left-style: solid;
+    border-color: var(--green);
+    width: 50%;
+    height: 10%;
 }
 
-#workimg1:hover, .workimg2:hover {
+#workimg1:hover, .workimg2:hover, .workimg3:hover {
     Opacity: 0.4
 }
 
 #workimg1 {
-    display:flex;
-    margin: 0 auto;
-    width: 60%;
-    height: 30%;
-    padding: 15px;
+    display: flex;
+    flex: 1 0 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 25px;
+    max-height: 700px;
+    padding: 10px;
 }
 
 .flex {
     display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 1;
-    justify-content:center;
+    width: 100%;
+    height: 10%;
 }
 
 .workimg2 {
-    width: 90%;
-    height: 90%;
+    display: flex;
+    flex: 1 0 100%;
+    width: 100%;
+    margin-left: 25px;
+    padding: 10px;
 }
 
-section .contactinfo{
-    border-left-style: solid;
+.flex2 {
+    width: 100%;
+    height: 10%;
+}
+
+.workimg3 {
+    flex: 1 0 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.contactinfo h2{
+    margin-left: 13px;
+    border-right-style: solid;
     border-color: var(--green);
+}
+
+.contactinfo ul{
+    list-style: none;
 }
 
 .contactinfo ul li{
@@ -177,7 +202,7 @@ footer {
     background: var(--green);
 }
 
-/* media query*/
+/* MEDIA QUERY */
 
 @media screen and (max-width: 1500px) {
     aside div {
@@ -185,6 +210,8 @@ footer {
         left: 43%;
     }
 }
+
+
 @media screen and (min-width: 1109px) {
     header h1 {
         display: inline;
@@ -192,14 +219,6 @@ footer {
     
     header nav {
         float: right;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .workimg2 {
-        width: 40px;
-        height: 40px;
-        margin:2px
     }
 }
 
