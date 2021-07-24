@@ -61,6 +61,14 @@ header nav ul li a:hover {
     background: var(--blush);
 }       
 
+nav a:visited {
+    color: var(--lightblush);
+}
+
+nav a:link {
+    color: var(--lightblush);
+}
+
 /* ASIDE */
 
 aside { 
@@ -186,6 +194,7 @@ p{
     text-align: left;
     margin-left: 280px;
     float: center;
+    margin-top: 50000px
 }
 
 #phone::before {
@@ -196,6 +205,27 @@ p{
     content: "\1F4E7"
 }
 
+.card-title {
+    background-color: var(--offwhite);
+    margin-bottom: 3%;
+}
+#textcolor{
+    color: black;
+    font-family: 'Audrey', serif, sans-serif;
+}
+
+#margin{
+    padding: 5px;
+    background-color: lightgray;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
 /* FOOTER */
 
 footer {
