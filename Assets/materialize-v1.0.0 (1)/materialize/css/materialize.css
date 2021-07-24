@@ -4644,6 +4644,10 @@ small {
   left: 0;
   max-width: 100%;
   padding: 24px;
+  border-bottom: solid lightgrey;
+  border-right: solid lightgrey;
+  border-bottom: solid lightgrey;
+  border-top: solid lightgrey;
 }
 
 .card .card-content {

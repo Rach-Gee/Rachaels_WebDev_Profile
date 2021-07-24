@@ -61,6 +61,10 @@ header nav ul li a:hover {
     background: var(--blush);
 }       
 
+a[href] {
+
+}
+
 nav a:visited {
     color: var(--lightblush);
 }
@@ -226,6 +230,14 @@ a:visited {
 a:link {
     color: black;
 }
+
+.card .card-image .card-title1 {
+    position: absolute;
+    max-width: 50%;
+    padding: 12px;
+    font-size: 14px 
+  }
+
 /* FOOTER */
 
 footer {
