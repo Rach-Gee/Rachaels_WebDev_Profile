@@ -61,10 +61,6 @@ header nav ul li a:hover {
     background: var(--blush);
 }       
 
-a[href] {
-
-}
-
 nav a:visited {
     color: var(--lightblush);
 }
@@ -209,6 +205,10 @@ p{
     content: "\1F4E7"
 }
 
+#PDF::before {
+    content: "\1F4C3"
+}
+
 .card-title {
     background-color: var(--offwhite);
     margin-bottom: 3%;
@@ -235,7 +235,18 @@ a:link {
     position: absolute;
     max-width: 50%;
     padding: 12px;
-    font-size: 14px 
+    font-size: 14px; 
+    border-bottom: solid lightgrey;
+    border-right: solid lightgrey;
+    border-bottom: solid lightgrey;
+    border-top: solid lightgrey;
+  }
+
+  .card .card-image .card-title {
+    border-bottom: solid lightgrey;
+    border-right: solid lightgrey;
+    border-bottom: solid lightgrey;
+    border-top: solid lightgrey;
   }
 
 /* FOOTER */
