@@ -114,7 +114,6 @@ section {
 
 section h2{
     left: 0;
-    width: 250px;
     position: absolute;
     color: var(--dark);
     font-size: xx-large;
@@ -123,64 +122,29 @@ section h2{
 }
 
 p{
-    margin: 20px 0 15px 260px;
     padding-bottom: 10px;
     padding-left: 10px;
+    padding-top: 10px;
     border-left-style: solid;
     border-color: var(--green);
+    margin-left: 9%;
 }
 
 .myworkbox  {
-    margin-left: 260px;
-    border-left-style: solid;
-    border-color: var(--green);
     width: 50%;
     height: 10%;
 }
 
-#workimg1:hover, .workimg2:hover, .workimg3:hover {
+.opacity:hover{
     Opacity: 0.4
 }
 
-#workimg1 {
-    display: flex;
-    flex: 1 0 100%;
-    width: 100%;
-    object-fit: cover;
-    margin-left: 25px;
-    max-height: 700px;
-    padding: 10px;
-}
-
-.flex {
-    display: flex;
-    width: 100%;
-    height: 10%;
-}
-
-.workimg2 {
-    display: flex;
-    flex: 1 0 100%;
-    width: 100%;
-    margin-left: 25px;
-    padding: 10px;
-}
-
-.flex2 {
-    width: 100%;
-    height: 10%;
-}
-
-.workimg3 {
-    flex: 1 0 100%;
-    width: 100%;
-    object-fit: cover;
-    margin-left: 25px;
-    padding: 10px;
+.work{
+    border-left-style: solid;
+    border-color: var(--green);
 }
 
 .contactinfo h2{
-    margin-left: 13px;
     border-right-style: solid;
     border-color: var(--green);
 }
@@ -192,9 +156,6 @@ p{
 .contactinfo ul li{
     list-style-type: none;
     text-align: left;
-    margin-left: 280px;
-    float: center;
-    margin-top: 50000px
 }
 
 #phone::before {
@@ -262,6 +223,27 @@ footer {
         font-size: 40px;
         left: 43%;
     }
+    .myworkbox, .contactinfo {
+        margin-left: 100px;
+    }
+    .section h2 {
+        width: 0px;
+        margin-left: 0%;
+    }
+
+    
+    .card .card-image .card-title {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .card .card-image .card-title {
+        font-size: 8px;
+        font-weight: 300;
+        padding: 2px
+    }
+    
+    
 }
 
 
@@ -280,8 +262,36 @@ footer {
         list-style-type: none;
         display: inline;
         text-align: left;
-        margin-left: 280px;
         float: center;
+        margin-left: 3%;
+    }
+    
+    section h2{
+        left: 0;
+        width: 250px;
+        position: absolute;
+        color: var(--dark);
+        font-size: xx-large;
+        text-align: end;
+        padding-right: 10px;
+    }
+    
+    p{
+        margin: 20px 0 15px 0px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-left-style: solid;
+        border-color: var(--green);
+    }
+    
+    .myworkbox  {
+        margin-left: 260px;
+        width: 50%;
+        height: 10%;
+    }
+
+    .contactinfo h2{
+        margin-left: 13px;
     }
 }
 
