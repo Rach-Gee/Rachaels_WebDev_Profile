@@ -156,6 +156,7 @@ p{
 .contactinfo ul li{
     list-style-type: none;
     text-align: left;
+    margin-left: -20px;
 }
 
 #phone::before {
@@ -291,7 +292,7 @@ footer {
     }
 
     .contactinfo h2{
-        margin-left: 13px;
+        margin-left: 10px;
     }
 }
 
