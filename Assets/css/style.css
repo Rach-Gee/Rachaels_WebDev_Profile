@@ -198,22 +198,24 @@ a:link {
     max-width: 50%;
     padding: 12px;
     font-size: 14px; 
-    border-bottom: solid lightgrey;
-    border-right: solid lightgrey;
-    border-bottom: solid lightgrey;
-    border-top: solid lightgrey;
+    border: solid lightgrey;
 }
 
 .card .card-image .card-title {
-    border-bottom: solid lightgrey;
-    border-right: solid lightgrey;
-    border-bottom: solid lightgrey;
-    border-top: solid lightgrey;
+    border: solid lightgrey;
 }
 
 .fa {
     display: block !important;
 }
+
+.row .col.s6 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+
 
 /* FOOTER */
 
@@ -302,6 +304,13 @@ footer {
     .fa {
         display: inline !important;
     }
+
+    .row .col.s6 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+      }
 }
 
 
