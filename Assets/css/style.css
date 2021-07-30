@@ -300,7 +300,7 @@ footer {
     }
 
     .fa {
-        display: block !important;
+        display: inline !important;
     }
 }
 
